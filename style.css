@@ -9,8 +9,110 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Oswald";
   font-style: normal;
 }
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+body header .wrapper__header {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+body header .wrapper__header .img-logo {
+  background-image: url(./assets/img-logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 93px;
+  height: 32px;
+}
+body header .wrapper__header nav {
+  display: flex;
+  gap: 40px;
+}
+body header .wrapper__header nav p {
+  font: 400 14px "Oswald";
+  color: #000000;
+  text-transform: uppercase;
+}
+body header .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 400 14px "Oswald";
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #0057ff;
+  border-radius: 30px;
+  width: 193px;
+  height: 52px;
+}
+body main section {
+  display: flex;
+}
+body main section .main-img {
+  background-image: url(./assets/main-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 540px;
+  height: 589px;
+  margin-top: 169px;
+  margin-bottom: 236px;
+}
+body main section .wrapper1 {
+  padding: 134px 0 0 120px;
+}
+body main section .wrapper1 .main-description h1 {
+  font: 400 40px "Oswald";
+  line-height: 50px;
+  color: #000000;
+  text-transform: uppercase;
+  width: 450px;
+}
+body main section .wrapper1 .main-description p {
+  font: 400 15px "Roboto";
+  color: #000000;
+  padding: 48px 0 58px 0;
+  width: 488px;
+  line-height: 26px;
+}
+body main section .wrapper1 .wrapper2 {
+  border: 1px solid #e7e7e7;
+  border-radius: 20px;
+  width: 500px;
+  margin-left: 20px;
+}
+body main section .wrapper1 .wrapper2 .dropdown-list .dropdown-list-el {
+  width: 498px;
+  height: 88px;
+  padding: 0 35px 0 40px;
+  background: #ffffff;
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main section .wrapper1 .wrapper2 .dropdown-list .dropdown-list-el p {
+  font: 400 16px "Oswald";
+  color: #000000;
+  text-transform: uppercase;
+}
+body main section .wrapper1 .wrapper2 .dropdown-list .dropdown-list-el .dropdown-list-img {
+  background-image: url(./assets/plus.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}/*# sourceMappingURL=style.css.map */

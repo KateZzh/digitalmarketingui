@@ -16,6 +16,16 @@
   font-style: normal;
 }
 
+a {
+  outline: none;
+  text-decoration: none;
+
+  .btn:hover {
+    transition: 1s;
+    color: orange;
+  }
+}
+
 body {
   width: 1200px;
   margin: 0 auto;
